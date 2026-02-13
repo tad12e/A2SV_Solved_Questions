@@ -1,14 +1,16 @@
-
+from collections import Counter
 
 class Solution:
     def frequencySort(self, s: str) -> str:
         counter = Counter(s)
-        pq = [(-freq, char) for char, freq in counter.items()]
-        heapq.heapify(pq)
-        result = ''
-        while pq:
-            freq, char = heapq.heappop(pq)
-            result += char * -freq
+
+        # sort characters based on frequency (descending)
+        chars = sorted(counter.keys(), key=lambda c: counter[c], reverse=True)
+
+        result = ""
+        for ch in chars:
+            result += ch * counter[ch]
+
         return result
 
 
