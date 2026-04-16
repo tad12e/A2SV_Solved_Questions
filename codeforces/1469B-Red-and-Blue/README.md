@@ -1,6 +1,6 @@
 # 1469B-Red-and-Blue
 
-**Problem:** [1469B-Red-and-Blue](https://codeforces.com/contest/1469/problem/B)
+**Problem:** [1469B-Red-and-Blue](https://codeforces.com/problemset/problem/1469/B)
 
 **time limit per test:** 2 seconds
 
