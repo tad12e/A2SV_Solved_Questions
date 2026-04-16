@@ -1,6 +1,6 @@
 # 2070B-Robot-Program
 
-**Problem:** [2070B-Robot-Program](https://codeforces.com/contest/2070/problem/B)
+**Problem:** [2070B-Robot-Program](https://codeforces.com/problemset/problem/2070/B)
 
 **time limit per test:** 2 seconds
 
