@@ -1,9 +1,5 @@
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
-        
-        
-
-
         visited = set()
         graph = defaultdict(list)
         for a , b in edges:
